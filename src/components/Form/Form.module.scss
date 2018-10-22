@@ -1,0 +1,39 @@
+.FormContent {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  background: #34495e;
+  border-radius: 4px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    span {
+      margin-bottom: 10px;
+      width: 100%;
+      text-align: left;
+      color: white;
+    }
+
+    input {
+      border-radius: 4px;
+      border: none;
+      min-height: 30px;
+    }
+
+    textarea {
+      border-radius: 4px;
+      border: none;
+      min-height: 100px;
+    }
+  }
+}

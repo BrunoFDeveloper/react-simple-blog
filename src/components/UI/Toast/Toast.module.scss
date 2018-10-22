@@ -1,0 +1,22 @@
+.ToastContent {
+  background: #ccc;
+  position: fixed;
+  bottom: 20px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s ease-in;
+  right: -21%;
+  border-bottom: 3px solid transparent;
+
+  p {
+    margin: 5px;
+  }
+
+  &.Success {
+    right: 10px;
+    background: #2ac447;
+    color: white;
+    border-bottom: 3px solid darken(#2ac447, 10%);
+  }
+}

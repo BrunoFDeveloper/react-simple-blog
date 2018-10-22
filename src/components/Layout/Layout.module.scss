@@ -1,0 +1,18 @@
+.Main {
+  width: 100vw;
+  height: calc(100vh - 50px);
+  position: absolute;
+  padding-top: 50px;
+}
+
+.Container {
+  width: 100%;
+  padding: 50px 15px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .Container {
+    padding: 50px 50px;
+  }
+}

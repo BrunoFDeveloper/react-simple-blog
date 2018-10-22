@@ -1,0 +1,17 @@
+.CommentForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  input {
+    width: 40%;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #323232;
+    line-height: 14px;
+    padding-left: 15px;
+  }
+
+  button {
+    border-radius: 0 4px 4px 0;
+  }
+}

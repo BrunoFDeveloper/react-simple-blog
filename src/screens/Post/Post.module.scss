@@ -1,0 +1,18 @@
+.PostContent {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}
+
+.ContentComments {
+  display: block;
+  box-sizing: border-box;
+  max-height: 258px;
+  overflow: scroll;
+}

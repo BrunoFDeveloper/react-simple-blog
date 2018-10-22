@@ -1,0 +1,10 @@
+.Button {
+  cursor: pointer;
+  border-radius: 4px;
+  min-height: 30px;
+  height: 30px;
+  color: white;
+  background: darken(#2c3e50, 5%);
+  border: none;
+  border-bottom: 2px solid darken(#2c3e50, 20%);
+}
